@@ -44,6 +44,5 @@ fn concatNumber
 		if (substring n n.count 1 == x) do n += "0"
 	)	
 
-	return n
-	 
+	n	 
 )
