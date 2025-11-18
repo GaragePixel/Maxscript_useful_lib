@@ -12,9 +12,9 @@ fn concatNumber
 	-- Declare
 	local f="#." + p as string + "f"
 	local x = "."
-	local d = 0
-	local c = 0
+	local d = 0	
 	local z = 0
+	local c
 	
 	-- Quick formattage precision p behind radix	
 	n = formattedPrint n format:f
