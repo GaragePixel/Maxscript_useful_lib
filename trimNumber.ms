@@ -1,9 +1,9 @@
 --
--- concatNumber()
+-- trimNumber()
 -- iDkP for GaragePixel 
 -- 2025-11-18
 --
-fn concatNumber
+fn trimNumber
 
 	n -- the input (integer or float)
 	p -- precision behind radix
