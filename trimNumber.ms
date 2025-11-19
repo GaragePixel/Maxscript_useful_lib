@@ -9,6 +9,8 @@ fn trimNumber
 	p -- precision behind radix
 	= -- formatted number as integer if n as integer, else float
 (	
+	if Classof p == integer then return p as string
+
 	-- Declare
 	local f="#." + p as string + "f"
 	local x = "."
